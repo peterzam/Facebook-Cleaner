@@ -1,30 +1,69 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      button {
-        height: 25px;
-        width: 250px;
-        outline: none;
-      }
-    </style>
-  </head>
-  <body>
-    
-    <button id ="showID">Show ID</button>
-    <button id ="delReact">Delete All Like & Reactions</button>
-    <button id ="delComment">Delete All Comments</button>
-    <button id ="clearSearch">Clear Search History</button>
-    <button id ="clearWatched">Clear Watched Video History</button>
-    <button id ="delUnfollowed">Delete Unfollowed History</button>
-    <button id ="delStoriesReact">Delete Stories Reacts</button>
-    <button id ="delArchivedStories">Delete Archived Stories</button>
-    <button id ="delSentFriReq">Delete Sent Friend Requests</button>
-    <button id ="delVoted">Delete Voted Polls</button>
-    <button id ="delHidden">Delete Hidden from timeline Posts</button>
-    <button id ="delPhotos" style="color: crimson;">Delete All Posted Photos & Videos</button>
-    <button id ="delSaved" style="color: crimson;">Delete All Saved Posts</button>
+<html lang="en">
 
-    <script src="scripts/popup.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Buttons</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="button_group">
+        <button id ="showID" class="button button_1" >
+            <i class="material-icons">person</i>
+            <span class="button_text">&nbsp;Profile ID</span>
+        </button>
+        <button id ="delReact" class="button button_2">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;All Reactions</span>
+        </button>
+        <button id ="delComment" class="button button_2">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;All Comments</span>
+        </button>
+        <button id ="clearSearch" class="button button_2">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;Search History</span>
+        </button>
+        <button id ="clearWatched" class="button button_2">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;Watched Video History</span>
+        </button>
+        <button id ="delUnfollowed" class="button button_2">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;Unfollowed History</span>
+        </button>
+        <button id ="delStoriesReact" class="button button_2">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;All Stories Reactions</span>
+        </button>
+        <button id ="delArchivedStories" class="button button_2">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;All Archived Stories</span>
+        </button>
+        <button id ="delSentFriReq" class="button button_2 fri_req">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;Sent Friend Requests</span>
+        </button>
+        <button id ="delVoted" class="button button_2">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;All Voted Polls</span>
+        </button>
+        <button id ="delHidden" class="button button_2">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;All Hidden Posts</span>
+        </button>
+        <button id ="delPhotos" class="button button_2">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;All Photos and Videos</span>
+        </button>
+        <button id ="delSaved" class="button button_2 last">
+            <i class="material-icons">delete</i>
+            <span class="button_text">&nbsp;All Saved Posts</span>
+        </button>
+        <script src="scripts/popup.js"></script>
+    </div>
+</body>
+
 </html>
