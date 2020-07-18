@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+
+    "name": "Facebook Cleaner",
+    "version": "1.0",
+    "description": "Like, Comment cleaner for Facebook",
+    "author": "Peter Zam",
+    "permissions": [ "activeTab","declarativeContent"],
+
+    "background": {
+      "scripts": ["scripts/background.js"],
+      "persistent": true
+    },
+
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/logo_16.png",
+        "32": "images/logo_32.png",
+        "48": "images/logo_48.png",
+        "128": "images/logo_128.png"
+      }
+    },
+
+    "icons": {
+        "16": "images/logo_16.png",
+        "32": "images/logo_32.png",
+        "48": "images/logo_48.png",
+        "128": "images/logo_128.png"
+    }
+
+  }
