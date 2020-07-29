@@ -18,7 +18,7 @@ Videos,<br>
 Saved Posts.
 </code>
 <hr>
-<h3><u>How to install: Open Chrome -> Extensions -> Developer Mode -> Load Unpacked -> Open Extension Folder.</u></h3>
+<h3><u>Chrome Store Link: https://chrome.google.com/webstore/detail/facebook-cleaner/kepnnohepbagjllaancjhfajnpaaahhj
 <hr>
 Sadly this extension only supports facebook original version(Theme).
 
